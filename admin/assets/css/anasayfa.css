@@ -1,0 +1,133 @@
+body.aa2 {
+    background-color: #84a0b2; /* Mor arka plan rengi */
+}
+.form1-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Bulanık hafif beyaz arkaplan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%; /* Maksimum genişlik */
+    width: 400px; /* Genişlik */
+    margin-top: 20px; /* Yukarıdan boşluk */
+}
+
+
+
+.form1-container label {
+    display: block; /* Etiketleri blok element olarak görüntüle */
+    margin-bottom: 10px; /* Etiketler arasında boşluk bırak */
+}
+
+.form1-container input[type="text"],
+.form1-container input[type="number"],
+.form1-container input[type="tel"],
+.form1-container textarea,
+.form1-container input[type="file"],
+.form1-container input[type="parking"]
+.form1-container input[type="cat"] {
+    width: 100%; /* Giriş alanlarını tam genişlikte yap */
+    padding: 10px; /* Giriş alanlarının iç boşluğu */
+    margin-bottom: 15px; /* Giriş alanları arasında boşluk bırak */
+    border: 1px solid #ccc; /* Çerçeve rengi ve kalınlığı */
+    border-radius: 5px; /* Köşeleri yuvarlat */
+    box-sizing: border-box; /* Padding ve border'ı genişlik hesabına dahil et */
+}
+
+.form1-container input[type="submit"] {
+    background-color: #4CAF50; /* Arkaplan rengi */
+    color: white; /* Yazı rengi */
+    padding: 10px 15px; /* Padding */
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Köşeleri yuvarlat */
+    cursor: pointer; /* Üzerine gelince el işareti göster */
+    font-size: 16px; /* Yazı boyutu */
+    width: 100%; /* Tam genişlik */
+}
+
+.form1-container input[type="submit"]:hover {
+    background-color: #45a049; /* Hover rengi */
+}
+
+/* Arka plan resmi */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('arka-plan-resmi.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.form1-container select {
+    width: 100%; /* Giriş alanlarını tam genişlikte yap */
+    padding: 10px; /* Giriş alanlarının iç boşluğu */
+    margin-bottom: 15px; /* Giriş alanları arasında boşluk bırak */
+    border: 1px solid #ccc; /* Çerçeve rengi ve kalınlığı */
+    border-radius: 5px; /* Köşeleri yuvarlat */
+    box-sizing: border-box; /* Padding ve border'ı genişlik hesabına dahil et */
+}
+.table-responsive {
+    overflow-x: auto;
+}.aa3 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aa0 {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.form11-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Hafif beyaz arka plan */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Arka planı hafif bulanıklaştır */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .table th, .table td {
+        font-size: 14px;
+    }
+}
